@@ -1,0 +1,54 @@
+\startappendix{Additional Information}
+\label{chapter:appendix}
+
+\section{List of Software Tools}
+\begin{description}
+ \item[R] The R Project for Statistical Computing
+ \item[OpenCV] The open source computer vision library
+ \item[Kivy] An open source library for rapid development of applications. Available from kivy.org
+ \item[Inkscape] An open source scalable vector graphics editor. See inkscape.org
+ \item[FFmpeg] An open source library for recording and converting videos. See ffmpeg.org
+\end{description}
+
+\section{Background Questionnaire}
+\begin{table}
+ \centering
+ \caption{The questionnaire that was completed by the participants before the study}
+\begin{tabular}{|p{4 in}|c|}
+\hline
+Participant Number
+&
+007
+\hline
+Gender
+&
+Female \hspace{10 mm} Male
+\hline
+Age
+&
+\hline
+Name of City and Country where you grow up
+&
+\hline
+Do you like to work with your hands?
+&
+Yes \hspace{10 mm} Sometimes \hspace{10 mm} No
+\hline
+Do you perform regular activities that requires skilled hands? if so what are they?
+&
+\hline
+What hand do you write with?
+&
+Left \hspace{10 mm} Right \hspace{10 mm} Both
+\hline
+Which is your dominant hand in most daily activities?
+&
+Left
+Right
+Depends on activity
+\hline
+If you use any touch devices please name a few of them here.
+&
+\hline
+\end{tabular} 
+\end{table}

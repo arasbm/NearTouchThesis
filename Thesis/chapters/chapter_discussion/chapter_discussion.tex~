@@ -1,0 +1,58 @@
+\startchapter{Discussion}
+\label{chapter:discussion}
+
+\section{Classification of Near Touch Actions}
+The results of this study suggest that algorithms for classifying near touch actions need to be aware of which hand is used in performing the action.
+This can be either explicitly designed into the algorithm, or will be an implicit outcome if the algorithm for classifying the action and detecting its center is accurate enough.
+The feature matrix data collected in this study is available to anyone
+interested in training a classifier algorithm for detecting grab and release
+actions and the center of action (https://github.com/arasbm/NearTouchThesis).
+
+\section{Implications for Interaction Design}
+Grab and release actions for computing surfaces are simple to perform and remember because they closely resemble actions commonly performed with physical objects.
+Leveraging these actions can enrich the vocabulary of hand interactions on and above the surface of an interactive display.
+Near touch interaction can be complementary to existing touch interaction and my prototype system enables one to explore and evaluate ways of combining the two.
+
+One potential pitfall to those designing games or other applications that require continuous interaction for extended periods of time is that grab, release, and other near touch interactions can cause user fatigue, as shown by the questionnaire results. This is likely also true of direct touch interactions on vertical surfaces.
+However, careful mixing of grab and release action into the vocabulary of interaction may be helpful as it allows users to change the posture of their hands, reducing repetitive strain.
+Additionally, I expect that these actions would be most valuable for short duration walk-up-and-use scenarios, such as museum displays.
+
+Another result of the current study that may be of interest to interaction designers is the model for distinguishing a user's left and right hand when a grab or release action has been performed. Understanding which hand is used can be useful for displaying contents such as menus in an appropriate location, and for supporting asymmetric bimanual interactions. My approach to hand detection is straightforward to implement, does not depend on finger identification, and maintains high accuracy.
+
+\section{Limitations of Findings}
+In this section I discuss the limitations of main results of this study.
+Perhaps the biggest limitation of this study is that it considers only two actions.
+The models for locating center of action are based on grab and release actions only.
+While these models are likely to hold true for several other actions that are similar to grab and release such as \textit{rotate}, they will likely fail in other cases such as \textit{point} action.
+Therefore these models can not be applied to other hand actions without further user testing.
+
+In order to reduce complexity of study design some parameters were fixed.
+Participants were guided to sit on a chair, therefore fixing participant body position and orientation.
+To apply the algorithm for distinguishing left and right hand to the more general case, in which user can freely walk around the screen, body position and orientation would need to be considered in the algorithm.
+Screen size, height, and orientation were also fixed in this study and it is not known if changes in these parameters would have an effect on the models proposed in this study.
+I believe changes in head position relative to the hand will have minimal effect on the models.
+When screen orientation does not change, human hand-eye coordination can compensate for changes of had position relative to body.
+However the changes in the screen orientation will likely have a significant effect on the models because it may change the way users perceive the current position of an item as well as their perception of up direction.
+On the flat screen of a tabletop users will likely grab an item and lift it in the up direction.
+It is not clear how user would approach an item for grabbing and in what direction they will lift their hand after grabbing an item on vertical screen.
+The up direction may be perceived as the direction against gravity as is in the real world, or as the direction perpendicular to the surface of the display.
+More user testing is required to answer this question.
+
+Another important limitation of this study is the use of one pair of object and target per trial -- both of which were circular.
+While I was able to show that changes in the size of the object did not have a significant effect on the way users perform grab or release actions on them, I can not assume a similar claim for changes in the shape of the object.
+For example if items presented on the screen resemble physical objects that afford different forms of grabbing (for example a hammer) or otherwise look significantly different from the representation used in this study -- users may change the way they perform grab and release actions on the objects and as a result invalidate any of the models.
+Furthermore, placing several objects and targets on the same screen may prompt
+users to perform more accurate or possibly different form of grab and release
+actions to avoid accidentally obtaining another object.
+
+%\section{SAMPLE INTERACTIONS}
+% 1.25 page
+% some sketch of an envisioned realization could be cool 
+% sketching a scenerio or two of people using a system 
+% twist to lock/unlock
+% grab and release
+% Hover for popup info
+% Show mode assigned to a hand while hovering
+% [maybe some kind of organization of layers of sheets, e.g., architecture sheets / objects?]
+% reach for keyboard (detect from the motion of the hand that user is expecting a keyboard under her hands)
+% grab item from one screen and drop on another

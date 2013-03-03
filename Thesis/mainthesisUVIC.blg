@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: mainthesisUVIC.aux
+A level-1 auxiliary file: chapters/chapter_intro/chapter_intro.aux
+A level-1 auxiliary file: chapters/chapter_motivation/chapter_motivation.aux
+A level-1 auxiliary file: chapters/chapter_related_works/chapter_related_works.aux
+A level-1 auxiliary file: chapters/chapter_method/chapter_method.aux
+A level-1 auxiliary file: chapters/chapter_results/chapter_results.aux
+A level-1 auxiliary file: chapters/chapter_discussion/chapter_discussion.aux
+A level-1 auxiliary file: chapters/chapter_conclusion/chapter_conclusion.aux
+The style file: plain.bst
+A level-1 auxiliary file: chapters/chapter_appendix/chapter_appendix.aux
+Database file #1: near_touch_references.bib
+Warning--entry type for "Kivy:2012:homepage" isn't style-file defined
+--line 292 of file near_touch_references.bib
+Warning--string name "april" is undefined
+--line 295 of file near_touch_references.bib
+Warning--can't use both volume and number fields in Hirsch:2009:BIDI
+Warning--empty journal in Zhang:2012:EFOFPAMTS
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            675 strings with 10313 characters,
+and the built_in function-call counts, 12831 in all, are:
+= -- 1358
+> -- 536
+< -- 24
++ -- 213
+- -- 184
+* -- 807
+:= -- 1888
+add.period$ -- 103
+call.type$ -- 27
+change.case$ -- 172
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 564
+empty$ -- 1011
+format.name$ -- 184
+if$ -- 2922
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 25
+newline$ -- 137
+num.names$ -- 54
+pop$ -- 242
+preamble$ -- 1
+purify$ -- 146
+quote$ -- 0
+skip$ -- 442
+stack$ -- 0
+substring$ -- 875
+swap$ -- 254
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 2
+while$ -- 123
+width$ -- 29
+write$ -- 320
+(There were 4 warnings)

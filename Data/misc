@@ -1,0 +1,40 @@
+## normality test
+local({
+## Prepare
+require(nortest)
+## Compute
+vars <- list (substitute (combined.data[["release_obj.width"]]), substitute (combined.data[["release_obj.height"]]), substitute (combined.data[["num_of_features"]]), substitute (combined.data[["min_rect.size.width"]]), substitute (combined.data[["min_rect.size.height"]]), substitute (combined.data[["min_rect.center.x"]]), substitute (combined.data[["min_rect.angle"]]), substitute (combined.data[["min_circle.radius"]]), substitute (combined.data[["min_circle.center.y"]]), substitute (combined.data[["min_circle.center.x"]]), substitute (combined.data[["min.rect.size.y"]]), substitute (combined.data[["mass.center.y"]]), substitute (combined.data[["mass.center.x"]]), substitute (combined.data[["grab_obj.width"]]), substitute (combined.data[["grab_obj.height"]]), substitute (combined.data[["grab_obj.center_y"]]), substitute (combined.data[["grab_obj.center_x"]]), substitute (combined.data[["grab.or.release.obj.size"]]), substitute (combined.data[["feature_mean.x"]]), substitute (combined.data[["feature_mean.y"]]), substitute (combined.data[["feature_StdDev"]]), substitute (combined.data[["Object.or.Target.X"]]), substitute (combined.data[["Object.or.Target.Y"]]))
+results <- data.frame ('Variable Name'=rep (NA, length (vars)), check.names=FALSE)
+for (i in 1:length (vars)) {
+	results[i, 'Variable Name'] <- rk.get.description (vars[[i]], is.substitute=TRUE)
+	var <- eval (vars[[i]], envir=globalenv ())
+	results[i, 'Length'] <- length (var)
+	results[i, 'NAs'] <- sum (is.na(var))
+	try ({
+		test <- pearson.test (var, adjust = TRUE)
+		results[i, 'Statistic'] <- paste (names (test$statistic), test$statistic, sep=" = ")
+		results[i, 'p-value'] <- test$p.value
+		results[i, 'number of classes'] <- test$n.classes
+		results[i, 'degrees of freedom'] <- test$df
+	})
+}
+## Print result
+rk.header ("Pearson chi-square Normality Test",
+	parameters=list ("chi-square distribution with n.classes-3 df (TRUE) or chi-square distribution with n.classes-1 df (FALSE)", "adjust = TRUE"))
+rk.results (results)
+})
+
+####################################
+## histograms
+require(lattice) 
+histogram(~min_rect.size.height)
+## independent variables
+histogram( ~ grab.or.release.obj.size)
+histogram( ~ grab_obj.center_x)
+histogram( ~ release_obj.center_x)
+histogram( ~ grab_obj.center_y)
+histogram( ~ release_obj.img.center_y) 
+
+grab_obj_pos <- grab_obj.center_x + grab_obj.center_y
+histogram(grab_obj_pos, main="Distribution of Position of Grab Object", xlab="X+Y")
+

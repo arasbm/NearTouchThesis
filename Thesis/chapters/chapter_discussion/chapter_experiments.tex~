@@ -1,0 +1,30 @@
+\startchapter{Discussion}
+\label{chapter:discussion}
+
+\subsection{Classification of Near Touch Actions}
+The results of our study suggest that algorithms for classifying near touch actions need to be aware of which hand is used in performing the action.
+This can be either explicitly designed into the algorithm, or will be an implicit outcome if the algorithm for classifying the action and detecting its center is accurate enough.
+The feature matrix data collected in this study is available to anyone interested in training a classifier algorithm for detecting grab and release actions and the center of action (link removed for blind review).
+
+\subsection{Implications for Interaction Design}
+Grab and release actions for computing surfaces are simple to perform and remember because they closely resemble actions commonly performed with physical objects.
+Leveraging these actions can enrich the vocabulary of hand interactions on and above the surface of an interactive display.
+Near touch interaction can be complementary to existing touch interaction and our prototype system enables one to explore and evaluate ways of combining the two.
+
+One potential pitfall to those designing games or other applications that require continuous interaction for extended periods of time is that grab, release, and other near touch interactions can cause user fatigue, as shown by our questionnaire results. This is likely also true of direct touch interactions on vertical surfaces.
+However, careful mixing of grab and release action into the vocabulary of interaction may be helpful as it allows users to change the posture of their hands, reducing repetitive strain.
+Additionally, we expect that these actions would be most valuable for short duration walk-up-and-use scenarios, such as museum displays.
+
+Another result of our study that may be of interest to interaction designers is the model for distinguishing a user's left and right hand when a grab or release action has been performed. Understanding which hand is used can be useful for displaying contents such as menus in an appropriate location, and for supporting asymmentric bimanual interactions. Our approach to hand detection is straightforward to implement, does not depend on finger identification, and maintains high accuracy.
+
+%\section{SAMPLE INTERACTIONS}
+% 1.25 page
+% some sketch of an envisioned realization could be cool 
+% sketching a scenerio or two of people using a system 
+% twist to lock/unlock
+% grab and release
+% Hover for popup info
+% Show mode assigned to a hand while hovering
+% [maybe some kind of organization of layers of sheets, e.g., architecture sheets / objects?]
+% reach for keyboard (detect from the motion of the hand that user is expecting a keyboard under her hands)
+% grab item from one screen and drop on another

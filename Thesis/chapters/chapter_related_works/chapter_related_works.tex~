@@ -1,0 +1,63 @@
+\startchapter{Related Work}
+\label{chapter:related_works}
+Detecting hand actions close to (but not directly touching) an interactive surface can extend interactions in several significant ways. 
+While comparatively smaller than the very large body of research into multitouch, near touch actions show promise as an intuitive and natural form of interaction. 
+For example, Yang et al. \cite{Yang:2011:touchcuts} demonstrated that touch interactions with small targets can be improved by expanding the targets as the user's hand approaches the surface. 
+Annett et al. \cite{Annett:2011:MPAMT} suggested presenting a gesture guide as context-sensitive help when a user's hand hovers over a surface. 
+Marquardt et al.\cite{Marquardt:2011:DUHPTI} argued that an interactive surface and the space immediately above it should be seen as a continuum, and that gestures on the surfaces should flow seamlessly into gestures above the surface. 
+They demonstrated many new types of interactions, including the ability to grab an object, move it in the space above the surface, and drop it on a new location. 
+Hilliges et al.\cite{Hilliges:2009:IAAFDIT} argue that such interactions are particularly useful for 3D scenes, since picking a 3D object up off of a surface is a common action in the real world, and often more natural than sliding it along a surface. Wilson and Benko \cite{wilson:2010:CMDCPIOABS} extended grab and release interactions to multiple surfaces, enabling users to pick up objects on one display and drop them onto another.
+
+In order to realize such near touch interactions, we first need hardware capable of detecting interactions close to the surface. 
+Then we need to use the input from that hardware intelligently, to understand where the user intends to interact and which hand they are using to perform the interaction. 
+In subsections below, I summarize previous research on these topics.
+
+\section{Hardware for detecting near surface interactions}
+A wide variety of approaches have been devised for detecting gestures and the distance of the hand from a surface. 
+For example, Takeoka et al.\cite{Takeoka:2010:ZTOUCH} were able to accurately detect the depth of hands interacting near a surface by stacking multiple infra-red planes above the surface. 
+In contrast, Benko et al. \cite{Benko:2009:EIOASMS} use a muscle sensing device to detect gestures through features such as finger detection and pressure. 
+Still another approach is to place a light source behind or above the user and track shadows cast by the user's hands \cite{Echtler:2008:STMT} \cite{Brandl:2007:ARPSUDPHG}.
+
+My own approach uses a rear-mounted infrared (IR) camera to view diffuse IR illumination reflected off of the user's hands. 
+Similar approaches have been used by Hilliges et al. \cite{Hilliges:2009:IAAFDIT}, Pyryeskin et al. \cite{Pyryeskin:2011:EIIHSURL}, and de FO Ara{\'u}jo et al. \cite{De:2009:DHFBMTDA}. Hodges et al. \cite{Hodges:2007:Thinsight} demonstrated that such an approach could be integrated into thin hardware devices by using a grid of infrared sensors rather than a single camera.
+My approach differs from these methods in that I use a type of illumination that provides an image of the hand that appears sharper as it approaches the surface, enabling a rough approximation of depth with a relatively inexpensive hardware setup. 
+Furthermore, my method allows for tracking prominent features of the hand (such as fingertips) near the screen using an optical flow algorithm; these features are good candidates for describing actions performed by the hand.
+% Aras: I need you to figure out how to put in the special character in Araujo's name.
+% @Melanie: de FO Ara{\'u}jo
+% Aras: please fill in a 1-sentence summary of how we differ from this group of DI approaches. Are we actually very different? For de F. O. Ara´ujo you said that we use LCD instead of a rear projection screen and a different illumination technique.
+
+My method uses image sharpness to distinguish touch actions from gestures above the surface. 
+An alternative is to use totally separate input for touch actions and gestures. 
+One common approach is to use a typical touch sensing mechanism for touch, plus shadow tracking or direct computer vision for hand tracking \cite{Dohse:2008:EMUIMTDUHT}, \cite{Brandl:2007:ARPSUDPHG}. 
+Izadi et al. \cite{Izadi:2008:GBDSTESD} similarly collect two inputs by using switchable diffusers to rapidly alternate between a view of touch points and a view of the whole hand. 
+% Aras: please add the reference below.
+% K. C. Dohse, T. Dohse, J. D. Still, and D. J. Parkhurst.Enhancing multi-user interaction with multi-touch tabletop displays using hand tracking. In ACHI ’08: Proceedings of the First International Conference on Advances in Computer-Human Interaction, pages 297–302. IEEE Computer Society, 2008.
+% @Melanie: done. Dohse:2008:EMUIMTDUHT
+\section{Identifying the center of interaction}
+Regardless of the hardware, whenever we track hands above a surface, we need to understand the intended target of a user's action. 
+Particularly when targets are small, identifying an incorrect target could lead to unexpected results. 
+The primary contribution of my work are models to identify the intended center of interaction for whole hand actions near a surface. 
+I am not aware of prior research that has solved this problem, but some related studies have been done for direct touch, and these inspired the design of my study. 
+For instance, Holz and Baudisch  \cite{Holz:2011:UT} modeled the intended center of interaction for individual fingers on a touch surface. 
+Similarly, Wang and Ren \cite{Wang:2009:EEFIMI} measured the shape and center of finger touches and approximated the shape as a bounding rectangle or ellipse, like some of my models.
+% @Melanie, I really like how you reference understanding touch here
+
+\section{Hand distinction}
+It is also important to understand which hand (left or right) is doing the interaction. As I will show later, left versus right hand impacts the intended target location. 
+However, hand detection can also be used for many other purposes. 
+For example, menus can be made to appear in a convenient location depending on the hand used, as described by Brandl et al \cite{Brandl:2007:ARPSUDPHG}. 
+% above Brandl is the 2007 reference. Below sentence refers to the 2008 paper.
+For bimanual interaction, knowing the hand helps to support non-symmetric division of labour as suggested by the kinematic chain model \cite{Guiard:1987:ADLHSBA}.  
+Annett et al. \cite{Annett:2011:MPAMT} and Brandl et al. \cite{Brandl:2008:CMBBPDTHS} describe numerous examples of interfaces that take advantage of knowing which hand is interacting with a surface.
+
+Some methods exist to distinguish left and right hands, mostly for different hardware setups than my own. 
+Annett et al. \cite{Annett:2011:MPAMT} identified hands on a tabletop display by using concentric rings of proximity sensors. Hands could be identified by relating them to a known position of the user's body. 
+For FTIR touch input, Dang et al. \cite{Dang:2009:HDMTTI} used position and orientation of the fingertips to map them to the left or right hand. 
+Similarly, Zhang \cite{Zhang:2012:EFOFPAMTS} distinguished hands by relating the position of a tracked index finger to the position of the hand contour; this method relies on either single finger interaction or the ability to identify the index finger. 
+Holzammer's approach \cite{Holzammer:2009:CDIFTIR} relies on the fact that there is a large distance between the thumb and forefinger. 
+Distances between detected finger positions of a fully spread hand can be used to identify the thumb and thus the hand. 
+As a contrasting approach, Walther-Franks et al. \cite{Walther:2011:LRHDMTD} implemented a classifier using a decision tree algorithm to detect handedness from input blob sizes, blob positions, and arm blob orientation.
+In this work, I present a new method for distinguishing hands from camera images, using orientation of the bounding rectangle. 
+% need to be careful not to use the word handedness. This refers to which hand a user prefers to use.
+Advantages of my method are that it is quite straightforward to implement and
+has relatively high accuracy.

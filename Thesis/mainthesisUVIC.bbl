@@ -1,0 +1,181 @@
+\begin{thebibliography}{10}
+
+\bibitem{Annett:2011:MPAMT}
+M.~Annett, T.~Grossman, D.~Wigdor, and G.~Fitzmaurice.
+\newblock Medusa: a proximity-aware multi-touch tabletop.
+\newblock In {\em Proceedings of the 24th annual ACM symposium on User
+  interface software and technology}, pages 337--346. ACM, 2011.
+
+\bibitem{Benko:2009:EIOASMS}
+H.~Benko, T.S. Saponas, D.~Morris, and D.~Tan.
+\newblock Enhancing input on and above the interactive surface with muscle
+  sensing.
+\newblock In {\em Proceedings of the ACM International Conference on
+  Interactive Tabletops and Surfaces}, pages 93--100. ACM, 2009.
+
+\bibitem{Brandl:2008:CMBBPDTHS}
+P.~Brandl, C.~Forlines, D.~Wigdor, M.~Haller, and C.~Shen.
+\newblock Combining and measuring the benefits of bimanual pen and direct-touch
+  interaction on horizontal interfaces.
+\newblock In {\em Proceedings of the working conference on Advanced visual
+  interfaces}, pages 154--161. ACM, 2008.
+
+\bibitem{Brandl:2007:ARPSUDPHG}
+P.~Brandl, M.~Haller, M.~Hurnaus, V.~Lugmayr, J.~Oberngruber, C.~Oster,
+  C.~Schafleitner, and M.~Billinghurst.
+\newblock An adaptable rear-projection screen using digital pens and hand
+  gestures.
+\newblock In {\em Artificial Reality and Telexistence, 17th International
+  Conference on}, pages 49--54. IEEE, 2007.
+
+\bibitem{Kivy:2012:homepage}
+Kivy Community.
+\newblock Kivy: Crossplatform framework for nui, 2012.
+
+\bibitem{Dang:2009:HDMTTI}
+C.T. Dang, M.~Straub, and E.~Andr{\'e}.
+\newblock Hand distinction for multi-touch tabletop interaction.
+\newblock In {\em Proceedings of the ACM International Conference on
+  Interactive Tabletops and Surfaces}, pages 101--108. ACM, 2009.
+
+\bibitem{De:2009:DHFBMTDA}
+T.~de~FO~Ara{\'u}jo, A.M.N. Lima, and A.J.V. dos Santos.
+\newblock Detecting hands, fingers and blobs for multi-touch display
+  applications.
+\newblock In {\em High Performance Computing \& Simulation, 2009. HPCS'09.
+  International Conference on}, pages 237--243. IEEE, 2009.
+
+\bibitem{Dohse:2008:EMUIMTDUHT}
+KC~Dohse, T.~Dohse, J.D. Still, and D.J. Parkhurst.
+\newblock Enhancing multi-user interaction with multi-touch tabletop displays
+  using hand tracking.
+\newblock In {\em Advances in Computer-Human Interaction, 2008 First
+  International Conference on}, pages 297--302. Ieee, 2008.
+
+\bibitem{Echtler:2008:STMT}
+Florian Echtler, Manuel Huber, and Gudrun Klinker.
+\newblock {Shadow tracking on multi-touch tables}.
+\newblock In {\em Proc. Advanced visual interfaces 2008}, pages 388--391, New
+  York, NY, USA, 2008. ACM.
+
+\bibitem{Epps:2006:SHSUTGI}
+J.~Epps, S.~Lichman, and M.~Wu.
+\newblock A study of hand shape use in tabletop gesture interaction.
+\newblock In {\em CHI'06 extended abstracts on Human factors in computing
+  systems}, pages 748--753. ACM, 2006.
+
+\bibitem{Guiard:1987:ADLHSBA}
+Y.~Guiard.
+\newblock Asymmetric division of labor in human skilled bimanual action: The
+  kinematic chain as a model.
+\newblock {\em Journal of motor behavior}, 19:486--517, 1987.
+
+\bibitem{Han:2005:LCMTSTFTIR}
+J.~Y. Han.
+\newblock {Low-Cost Multi-Touch Sensing Through Frustrated Total Internal
+  Reflection}.
+\newblock In {\em Proc. UIST 2005}, pages 115--118, New York, NY, USA, 2005.
+  ACM.
+
+\bibitem{Hilliges:2009:IAAFDIT}
+O.~Hilliges, S.~Izadi, A.D. Wilson, S.~Hodges, A.~Garcia-Mendoza, and A.~Butz.
+\newblock Interactions in the air: adding further depth to interactive
+  tabletops.
+\newblock In {\em Proceedings of the 22nd annual ACM symposium on User
+  interface software and technology}, pages 139--148. ACM, 2009.
+
+\bibitem{Hirsch:2009:BIDI}
+M.~Hirsch, D.~Lanman, H.~Holtzman, and R.~Raskar.
+\newblock Bidi screen: a thin, depth-sensing lcd for 3d interaction using light
+  fields.
+\newblock In {\em ACM Transactions on Graphics (TOG)}, volume~28, page 159.
+  ACM, 2009.
+
+\bibitem{Hodges:2007:Thinsight}
+S.~Hodges, S.~Izadi, A.~Butler, A.~Rrustemi, and B.~Buxton.
+\newblock Thinsight: versatile multi-touch sensing for thin form-factor
+  displays.
+\newblock In {\em Proceedings of the 20th annual ACM symposium on User
+  interface software and technology}, pages 259--268. ACM, 2007.
+
+\bibitem{Holz:2011:UT}
+C.~Holz and P.~Baudisch.
+\newblock Understanding touch.
+\newblock In {\em Proceedings of the 2011 annual conference on Human factors in
+  computing systems}, pages 2501--2510. ACM, 2011.
+
+\bibitem{Holzammer:2009:CDIFTIR}
+A.~Holzammer, U.~Hahne, and M.~Alexa.
+\newblock {\em Combining Diffuse Illumination and Frustrated Total Internal
+  Reflection for touch detection}.
+\newblock PhD thesis, Master’s Thesis, Technische Universit{\"a}t Berlin,
+  Germany, 2009.
+
+\bibitem{Izadi:2008:GBDSTESD}
+S.~Izadi, S.~Hodges, S.~Taylor, D.~Rosenfeld, N.~Villar, A.~Butler, and
+  J.~Westhues.
+\newblock Going beyond the display: a surface technology with an electronically
+  switchable diffuser.
+\newblock In {\em Proceedings of the 21st annual ACM symposium on User
+  interface software and technology}, pages 269--278. ACM, 2008.
+
+\bibitem{Marquardt:2011:DUHPTI}
+N.~Marquardt, J.~Kiemer, D.~Ledo, S.~Boring, and S.~Greenberg.
+\newblock Designing user-, hand-, and handpart-aware tabletop interactions with
+  the touchid toolkit.
+\newblock In {\em Proceedings of the ACM International Conference on
+  Interactive Tabletops and Surfaces}, pages 21--30. ACM, 2011.
+
+\bibitem{motamedi:2008:HTMOSHDTV}
+Nima Motamedi.
+\newblock {Hd touch: multi-touch and object sensing on a high definition lcd
+  tv}.
+\newblock In {\em Proc. Extended abstracts of CHI 2008}, pages 3069--3074. ACM,
+  2008.
+
+\bibitem{Pyryeskin:2011:EIIHSURL}
+D.~Pyryeskin, M.~Hancock, and J.~Hoey.
+\newblock Extending interactions into hoverspace using reflected light.
+\newblock In {\em Proceedings of the ACM International Conference on
+  Interactive Tabletops and Surfaces}, pages 262--263. ACM, 2011.
+
+\bibitem{Takeoka:2010:ZTOUCH}
+Y.~Takeoka, T.~Miyaki, and J.~Rekimoto.
+\newblock Z-touch: an infrastructure for 3d gesture interaction in the
+  proximity of tabletop surfaces.
+\newblock In {\em ACM International Conference on Interactive Tabletops and
+  Surfaces}, pages 91--94. ACM, 2010.
+
+\bibitem{Walther:2011:LRHDMTD}
+B.~Walther-Franks, M.~Herrlich, M.~Aust, and R.~Malaka.
+\newblock Left and right hand distinction for multi-touch displays.
+\newblock In {\em Smart Graphics}, pages 155--158. Springer, 2011.
+
+\bibitem{Wang:2009:EEFIMI}
+F.~Wang and X.~Ren.
+\newblock Empirical evaluation for finger input properties in multi-touch
+  interaction.
+\newblock In {\em Proceedings of the 27th international conference on Human
+  factors in computing systems}, pages 1063--1072. ACM, 2009.
+
+\bibitem{wilson:2010:CMDCPIOABS}
+A.D. Wilson and H.~Benko.
+\newblock Combining multiple depth cameras and projectors for interactions on,
+  above and between surfaces.
+\newblock In {\em Proceedings of the 23nd annual ACM symposium on User
+  interface software and technology}, pages 273--282. ACM, 2010.
+
+\bibitem{Yang:2011:touchcuts}
+X.D. Yang, T.~Grossman, P.~Irani, and G.~Fitzmaurice.
+\newblock Touchcuts and touchzoom: enhanced target selection for touch displays
+  using finger proximity sensing.
+\newblock In {\em Proceedings of the 2011 annual conference on Human factors in
+  computing systems}, pages 2585--2594. ACM, 2011.
+
+\bibitem{Zhang:2012:EFOFPAMTS}
+H.~Zhang.
+\newblock Evaluating finger orientation for position awareness on multi-touch
+  tabletop systems.
+\newblock 2012.
+
+\end{thebibliography}

@@ -1,0 +1,11 @@
+base::::file:///home/amoghaddam/Dropbox/Papers/UIST2012/Data
+script::::file:///home/amoghaddam/Dropbox/Papers/UIST2012/Data/analysis.r
+script::::file:///home/amoghaddam/Dropbox/Papers/UIST2012/Data/lm.r
+script::::file:///home/amoghaddam/Dropbox/Papers/UIST2012/Data/hand_side_model.r
+script::::file:///home/amoghaddam/Dropbox/Papers/UIST2012/Data/Y_actiontype_model_2x2.r
+workspace::sidebar,0::
+commandlog::sidebar,3::
+filebrowser::sidebar,0::
+pendingjobs::sidebar,4::
+console::sidebar,3::
+helpsearch::sidebar,3::

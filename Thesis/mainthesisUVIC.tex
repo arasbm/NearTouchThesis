@@ -1,0 +1,27 @@
+\documentclass[12pt,oneside]{book}
+\include{macros/style}
+\include{macros/use_packages}
+
+\begin{document}
+
+% Front Matter
+\input frontmatter/fm
+
+\newpage
+
+	\include{chapters/chapter_intro/chapter_intro}
+	\include{chapters/chapter_motivation/chapter_motivation}
+	\include{chapters/chapter_related_works/chapter_related_works}
+	\include{chapters/chapter_method/chapter_method}
+	\include{chapters/chapter_results/chapter_results}
+	\include{chapters/chapter_discussion/chapter_discussion}
+	\include{chapters/chapter_conclusion/chapter_conclusion}
+
+	\TOCadd{Bibliography}
+	\bibliographystyle{plain}
+	\bibliography{near_touch_references}
+
+	\appendix
+	\include{chapters/chapter_appendix/chapter_appendix}
+
+\end{document}

@@ -1,0 +1,780 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.19)  16 AUG 2012 19:46
+entering extended mode
+ %&-line parsing enabled.
+**mainthesisUVIC.tex
+(./mainthesisUVIC.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@input{macros/style.aux}
+\openout2 = `macros/style.aux'.
+
+(./macros/style.tex (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2009/09/04 v2.3d parameterised ToC, etc., typesetting
+
+
+Package tocloft Note: The document has chapter divisions.
+
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforechapskip=\skip58
+\cftchapindent=\skip59
+\cftchapnumwidth=\skip60
+\cftbeforesecskip=\skip61
+\cftsecindent=\skip62
+\cftsecnumwidth=\skip63
+\cftbeforesubsecskip=\skip64
+\cftsubsecindent=\skip65
+\cftsubsecnumwidth=\skip66
+\cftbeforesubsubsecskip=\skip67
+\cftsubsubsecindent=\skip68
+\cftsubsubsecnumwidth=\skip69
+\cftbeforeparaskip=\skip70
+\cftparaindent=\skip71
+\cftparanumwidth=\skip72
+\cftbeforesubparaskip=\skip73
+\cftsubparaindent=\skip74
+\cftsubparanumwidth=\skip75
+\cftbeforeloftitleskip=\skip76
+\cftafterloftitleskip=\skip77
+\cftbeforefigskip=\skip78
+\cftfigindent=\skip79
+\cftfignumwidth=\skip80
+\c@lofdepth=\count91
+\c@lotdepth=\count92
+\cftbeforelottitleskip=\skip81
+\cftafterlottitleskip=\skip82
+\cftbeforetabskip=\skip83
+\cfttabindent=\skip84
+\cfttabnumwidth=\skip85
+))
+\@input{macros/use_packages.aux}
+\openout2 = `macros/use_packages.aux'.
+
+(./macros/use_packages.tex
+(/usr/share/texmf-texlive/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen107
+\extrarowheight=\dimen108
+\NC@list=\toks16
+\extratabsurround=\skip86
+\backup@length=\skip87
+))
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip88
+\LTright=\skip89
+\LTpre=\skip90
+\LTpost=\skip91
+\LTchunksize=\count93
+\LTcapwidth=\dimen109
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count94
+\LT@rows=\count95
+\c@LT@tables=\count96
+\c@LT@chunks=\count97
+\LT@p@ftn=\toks17
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count98
+)
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks18
+\minrowclearance=\skip92
+)
+\rownum=\count99
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen110
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip93
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen111
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks20
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks21
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks22
+\multlinegap=\skip94
+\multlinetaggap=\skip95
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip96
+\thm@postskip=\skip97
+\thm@headsep=\skip98
+\dth@everypar=\toks29
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count112
+\c@ALG@rem=\count113
+\c@ALG@nested=\count114
+\ALG@tlm=\skip99
+\ALG@thistlm=\skip100
+\c@ALG@Lnr=\count115
+\c@ALG@blocknr=\count116
+\c@ALG@storecount=\count117
+\c@ALG@tmpcounter=\count118
+\ALG@tmplength=\skip101
+) (/usr/share/texmf-texlive/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count119
+\float@exts=\toks30
+\float@box=\box32
+\@float@everytoks=\toks31
+\@floatcapt=\box33
+)
+\@float@every@algorithm=\toks32
+\c@algorithm=\count120
+)
+(/usr/share/texmf-texlive/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-texlive/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen122
+\WF@size=\dimen123
+\c@WF@wrappedlines=\count121
+\WF@box=\box34
+\WF@everypar=\toks33
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+))
+(/usr/share/texmf-texlive/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (./mainthesisUVIC.aux
+(./chapters/chapter_intro/chapter_intro.aux)
+(./chapters/chapter_motivation/chapter_motivation.aux
+
+LaTeX Warning: Label `chapter:introduction' multiply defined.
+
+) (./chapters/chapter_related_works/chapter_related_works.aux)
+(./chapters/chapter_method/chapter_method.aux)
+(./chapters/chapter_results/chapter_results.aux)
+(./chapters/chapter_discussion/chapter_discussion.aux)
+(./chapters/chapter_conclusion/chapter_conclusion.aux)
+(./chapters/chapter_appendix/chapter_appendix.aux))
+\openout1 = `mainthesisUVIC.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 5.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: class default
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 108.405pt, 433.62001pt, 72.26999pt
+v-parts: 93.95122pt, 628.74878pt, 72.26999pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  433.62001pt
+\textheight 628.74878pt
+\oddsidemargin  36.13501pt
+\evensidemargin 36.13501pt
+\topmargin  -26.45377pt
+\headheight 12.0pt
+\headsep    36.135pt
+\footskip   30.0pt
+\marginparwidth 47.0pt
+\marginparsep   7.0pt
+\columnsep  10.0pt
+\skip\footins  10.8pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen124
+\scratchbox=\box35
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen125
+\MPnumerator=\count126
+\everyMPtoPDFconversion=\toks35
+)
+LaTeX Info: Redefining \celsius on input line 5.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 5.
+Package gensymb Info: Using \Omega for \ohm on input line 5.
+
+Package gensymb Warning: Not defining \micro.
+
+(./frontmatter/fm.tex (./frontmatter/tp.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 17.
+
+(/usr/share/texmf-texlive/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 18.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+) (./frontmatter/sc.tex
+[1
+
+
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+) [2] (./frontmatter/abs.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+) [3]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+ (./mainthesisUVIC.toc
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
+\tf@toc=\write3
+\openout3 = `mainthesisUVIC.toc'.
+
+ [5] (./mainthesisUVIC.lot)
+\tf@lot=\write4
+\openout4 = `mainthesisUVIC.lot'.
+
+ [6] (./mainthesisUVIC.lof)
+\tf@lof=\write5
+\openout5 = `mainthesisUVIC.lof'.
+
+
+(./frontmatter/ack.tex [7]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ï in font ptmr7t!
+) (./frontmatter/ded.tex [8]) [9])
+\openout2 = `chapters/chapter_intro/chapter_intro.aux'.
+
+
+(./chapters/chapter_intro/chapter_intro.tex
+Chapter 1.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/neartouch_prototype.png.pdf): PDF
+ inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/neartouch_prototype.png.pdf, id=37, 800.59097pt x 732.33597pt>
+File: ./img/neartouch_prototype.png.pdf Graphic file (type pdf)
+
+<use ./img/neartouch_prototype.png.pdf>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+ [1
+
+
+] [2 <./img/neartouch_prototype.png.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/teaser/teaser.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/teaser/teaser.pdf, id=50, 694.595pt x 270.61101pt>
+File: ./img/teaser/teaser.pdf Graphic file (type pdf)
+
+<use ./img/teaser/teaser.pdf> [3 <./img/teaser/teaser.pdf>]) [4]
+\openout2 = `chapters/chapter_motivation/chapter_motivation.aux'.
+
+
+(./chapters/chapter_motivation/chapter_motivation.tex
+Chapter 2.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/backgammon_snapshot.pdf): PDF inc
+lusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/backgammon_snapshot.pdf, id=103, 684.95903pt x 385.44pt>
+File: ./img/backgammon_snapshot.pdf Graphic file (type pdf)
+
+<use ./img/backgammon_snapshot.pdf>
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/backgammon_chart.pdf): PDF inclus
+ion: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/backgammon_chart.pdf, id=105, 866.43701pt x 400.697pt>
+File: ./img/backgammon_chart.pdf Graphic file (type pdf)
+
+<use ./img/backgammon_chart.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5
+
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+[6 <./img/backgammon_snapshot.pdf>] [7 <./img/backgammon_chart.pdf>]) [8]
+\openout2 = `chapters/chapter_related_works/chapter_related_works.aux'.
+
+
+(./chapters/chapter_related_works/chapter_related_works.tex
+Chapter 3.
+[9
+
+
+
+] [10]) [11]
+\openout2 = `chapters/chapter_method/chapter_method.aux'.
+
+ (./chapters/chapter_method/chapter_method.tex
+Chapter 4.
+[12
+
+
+
+]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/participant_example.pdf): PDF inc
+lusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/participant_example.pdf, id=138, 1638.12pt x 1269.54305pt>
+File: ./img/participant_example.pdf Graphic file (type pdf)
+
+<use ./img/participant_example.pdf> [13 <./img/participant_example.pdf>]
+Overfull \hbox (3.04417pt too wide) in paragraph at lines 69--75
+\OT1/ptm/m/n/12 source code for my track-ing soft-ware can be forked from https
+://github.com/arasbm/Gibbon.
+ []
+
+[14] [15]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/inprogress/experiment_ui.png.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/inprogress/experiment_ui.png.pdf, id=156, 1027.84pt x 578.16pt>
+File: ./img/inprogress/experiment_ui.png.pdf Graphic file (type pdf)
+
+<use ./img/inprogress/experiment_ui.png.pdf> [16 <./img/inprogress/experiment_u
+i.png.pdf>] <./img/woz_screenshot.pdf, id=166, 766.06201pt x 433.62pt>
+File: ./img/woz_screenshot.pdf Graphic file (type pdf)
+
+<use ./img/woz_screenshot.pdf> [17] [18 <./img/woz_screenshot.pdf, page is rota
+ted 90 degrees>]
+Underfull \hbox (badness 7081) in paragraph at lines 227--227
+[]|\OT1/ptm/m/n/12 Fri Jan 6
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\OT1/ptm/m/n/12 12:48:04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]|\OT1/ptm/m/n/12 2012/01/06
+ []
+
+
+Overfull \hbox (6.76625pt too wide) in paragraph at lines 252--252
+\OT1/ptm/m/n/12 12:48:04.143| 
+ []
+
+
+Overfull \hbox (6.76625pt too wide) in paragraph at lines 253--253
+[]|\OT1/ptm/m/n/12 00:00:02.159| 
+ []
+
+
+Overfull \hbox (22.93863pt too wide) in paragraph at lines 217--260
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 2.37245pt on input line 260.
+
+) [19] [20] [21]
+\openout2 = `chapters/chapter_results/chapter_results.aux'.
+
+ (./chapters/chapter_results/chapter_results.tex
+Chapter 5.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/models_2x4.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<./img/models_2x4.pdf, id=189, 1445.4pt x 766.865pt>
+File: ./img/models_2x4.pdf Graphic file (type pdf)
+
+<use ./img/models_2x4.pdf> [22
+
+
+
+ <./img/models_2x4.pdf>] [23] [24]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/Y_lm_actiontype_2x2.pdf): PDF inc
+lusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/Y_lm_actiontype_2x2.pdf, id=315, 504.88625pt x 504.88625pt>
+File: ./img/Y_lm_actiontype_2x2.pdf Graphic file (type pdf)
+
+<use ./img/Y_lm_actiontype_2x2.pdf> [25 <./img/Y_lm_actiontype_2x2.pdf>]
+[26] [27]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/hand_side_model.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/hand_side_model.pdf, id=358, 464.01784pt x 457.71107pt>
+File: ./img/hand_side_model.pdf Graphic file (type pdf)
+
+<use ./img/hand_side_model.pdf> [28] [29 <./img/hand_side_model.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/bg.question.2.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/bg.question.2.pdf, id=388, 360.94008pt x 94.61641pt>
+File: ./img/bg.question.2.pdf Graphic file (type pdf)
+
+<use ./img/bg.question.2.pdf>
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/bg.question.1.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<./img/bg.question.1.pdf, id=390, 422.28867pt x 105.58601pt>
+File: ./img/bg.question.1.pdf Graphic file (type pdf)
+
+<use ./img/bg.question.1.pdf>) [30 <./img/bg.question.2.pdf> <./img/bg.question
+.1.pdf>]
+\openout2 = `chapters/chapter_discussion/chapter_discussion.aux'.
+
+ (./chapters/chapter_discussion/chapter_discussion.tex
+Chapter 6.
+[31
+
+
+
+] [32]) [33]
+\openout2 = `chapters/chapter_conclusion/chapter_conclusion.aux'.
+
+ (./chapters/chapter_conclusion/chapter_conclusion.tex
+Chapter 7.
+[34
+
+
+
+]) [35] (./mainthesisUVIC.bbl [36
+
+
+]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [37]) [38]
+\openout2 = `chapters/chapter_appendix/chapter_appendix.aux'.
+
+
+(./chapters/chapter_appendix/chapter_appendix.tex
+Appendix A.
+
+Overfull \hbox (3.37561pt too wide) in paragraph at lines 8--9
+[]\OT1/ptm/m/n/12 An open source li-brary for rapid de-vel-op-ment of ap-pli-ca
+-tions. Avail-able from kivy.org 
+ []
+
+[39
+
+
+]
+Overfull \hbox (35.0283pt too wide) in paragraph at lines 20--66
+ [][] 
+ []
+
+[40
+
+]
+Overfull \hbox (16.97198pt too wide) in paragraph at lines 73--102
+ [][] 
+ []
+
+) [41
+
+] (./mainthesisUVIC.aux (./chapters/chapter_intro/chapter_intro.aux)
+(./chapters/chapter_motivation/chapter_motivation.aux)
+(./chapters/chapter_related_works/chapter_related_works.aux)
+(./chapters/chapter_method/chapter_method.aux)
+(./chapters/chapter_results/chapter_results.aux)
+(./chapters/chapter_discussion/chapter_discussion.aux)
+(./chapters/chapter_conclusion/chapter_conclusion.aux)
+(./chapters/chapter_appendix/chapter_appendix.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4670 strings out of 495061
+ 62739 string characters out of 1182621
+ 140426 words of memory out of 3000000
+ 7643 multiletter control sequences out of 15000+50000
+ 22859 words of font info for 55 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 45i,14n,49p,574b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mainthesisUVIC.pdf (50 pages, 15606690 bytes).
+PDF statistics:
+ 495 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

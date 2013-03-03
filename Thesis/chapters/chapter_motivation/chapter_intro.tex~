@@ -1,0 +1,56 @@
+\startfirstchapter{Introduction}
+\label{chapter:introduction}
+
+This thesis focuses on empirical results to support parameterization of grab and release actions.  
+Grab and release actions are among the five most preferred hand interactions in a study done by Epps et al.\cite{Epps:2006:SHSUTGI} comparing preferences of user hand interactions for tabletop displays, and are a core component of many user interaction tasks. 
+For example, users in Epps et al. suggested grab and release to perform actions such as cut, copy, moving icons or changing a slider. 
+
+Most contemporary multi-touch devices only receive and use contact information with the surface.  
+This approach limits sensing bandwidth, making it very difficult or impossible to recognize what type of motion a user is performing with their hand on near the surface.  
+Furthermore, due to the lack of any hand tracking in most contemporary systems, it is not possible to assign modes or states to the hands.  
+These limitations hinder the design of bimanual as well as co-located collaborative interfaces.
+%Focus on the empirically validated techniques to parameterize and implement multitouch and near touch gestures; this is what we should be introducing; your hardware & s/w is a cool apparatus to accomplish your parameterization research contributions
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[type=pdf,ext=.pdf,read=.pdf,width=3in]{./img/neartouch_prototype.png}
+ \caption{
+Interplay between the hardware and software components of our system to process near touch interactions.
+Tracking software receives frames from both an infrared camera and an observer camera.
+Only frames from the infrared camera are processed by our computer vision algorithms.
+The frames from the two cameras are combined into one video stream that are superimposed with annotations.
+This video stream was shown to the wizard operating the Wizard of Oz system, and was stored in real time for post study analyses.
+The actions recognized by the wizard are sent to the tracking software by pressing shortcut keys, which in turn each trigger an event to send a TUIO message to the experiment UI in front of the participant.
+Both the tracking software and the experiment UI save a record in their own CSV log file containing all the data relevant to the current task.
+In addition to these two log files, tracking software records an OpenCV YML file containing a feature matrix with all available information from the temporal window prior to performing the task.
+This data can be used for training classification algorithms in future research.
+% Can we make this data available for download somewhere?  Or, do we wish to save it, perform our own training classification algorithm research, and then make the data public?
+}
+ \label{fig:neartouch_prototype}
+\end{figure}
+
+\section{Guiding Research Questions}
+Existing research projects that explore near touch surface interactions mostly focus on developing novel hardware solutions or the design of new interactions.
+In addition to building upon related systems research, our work presents empirically validated techniques that can be applied to future systems and interaction techniques.  
+Our work is guided by the following research questions.  First, what is an appropriate, accurate model for detecting the center of a user's  action?  
+In another words, where should a hand action (for example grab) be applied to so it is closest to where a user expects?  
+Second, what data from typical tracking software is needed to accurately model the actions performed by users and what size of temporal window would be appropriate for collecting these data?  
+
+\section{Near Touch Apparatus Summary}
+We introduce a prototype multi-touch and near touch tracking system (see Figure \ref{fig:neartouch_prototype}).  
+We chose a rear mounted camera setup for our hardware prototype because we believe recent advances in display technology, including advances in manufacturing OLED (Organic Light-Emitting Diode) displays, will lead to a new generation of display technologies that are capable of capturing an image of what is directly in front of the display.  
+For example, Hirsch et al.'s \cite{Hirsch:2009:BIDI} BiDi screen is a thin depth sensing prototype that demonstrates feasibility of manufacturing for future systems using a grid of pinhole cameras embedded inside a flat display.  
+Our choice of hardware deals with relatively similar types of signals as Hirsch et al. and can therefore contribute to future near touch sensing technologies in terms of hardware implementation, image processing, and interaction design.
+
+\section{Empirical Findings Summary}
+The main focus of our study is to find the most accurate model that would identify the center of grab and release actions performed by a user.  
+Before we can create a model for the center of the hand, we need to identify what factors most influence a user's interactions.  
+To find this information, we conducted a user study where participants performed grab and release actions on an experiment interface using our near touch apparatus.
+
+Using dependent variables from our user study and based on our initial observation of users, we formulate four primary models to predict the center of users' actions.  
+The dependent variables are parameters extracted from images of the hand in real time from a temporal window prior to performing the action. 
+The performance of our proposed models were very similar, suggesting a high-level robustness in our approach.  
+Another important finding of our study is an approach for distinguishing left and right hands when an action of grab or release has been registered.  
+These center of action and hand distinction findings are detailed in the Results section.
+
+%\pagebreak
